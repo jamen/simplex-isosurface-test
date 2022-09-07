@@ -1,0 +1,10 @@
+[package]
+name = "simplex-isosurface-test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+isosurface = { git = "https://github.com/swiftcoder/isosurface.git", tag = "0.1.0-alpha.0" }
+clatter = { git = "https://github.com/Ralith/clatter.git", rev = "a79c88c7692ecbaf2a5b5024e76f11d192cf1c24" }
